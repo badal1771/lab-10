@@ -9,7 +9,7 @@ public:
     //declaration of height
     double height;
     double getvolume(void){
-    return length*breath*height;}};
+    return length*breath*height;}};//returning the length*breath*height
     int main()
     {
         //declare of box 1
@@ -30,5 +30,6 @@ public:
         cout<<"volume of box 1"<<volume<<endl;
         volume=box2.getvolume();
         cout<<"volume of box 2 "<<volume<<endl;
+        //terminating the program
         return 0;
     }
